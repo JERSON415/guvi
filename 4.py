@@ -1,5 +1,5 @@
-ch='a'
-if((ch>='a' and ch<= 'z') or (ch>='A' and ch<='Z')):
+cha='a'
+if((cha>='a' and cha<= 'z') or (cha>='A' and cha<='Z')):
     print("Alphabet")
 else:
     print("NO")

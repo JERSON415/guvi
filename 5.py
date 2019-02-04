@@ -1,9 +1,9 @@
-n1 = 1
-n2 = 2
-n3 = 3
+n1 = 3
+n2 = 4
+n3 = 5
 if (n1 > n2) and (n1 > n3):
-   print("1")
-elif (n2 > n1) and (n2 > n3):
-   print("2")
-else:
    print("3")
+elif (n2 > n1) and (n2 > n3):
+   print("4")
+else:
+   print("5")

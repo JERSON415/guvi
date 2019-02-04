@@ -1,7 +1,7 @@
-ch='z'
-if(ch=='a',ch=='e',ch=='i',ch=='o',ch=='u',ch=='A',ch=='E',ch=='I',ch=='o',ch=='u'):
-	print('Vowel')
-elif(ch=='$',ch=='&'):
-	print('Invalid')
+ch ='z'
+if(ch=='A' or ch=='a' or ch=='E' or ch =='e' or ch=='I' or ch=='i' or ch=='O' or ch=='o' or ch=='U' or ch=='u'):
+	    print(" Vowel")
+elif(ch=='$'or ch=='&'):
+    print("invalid")
 else:
-	print('Constant')
+    print("Consonant)

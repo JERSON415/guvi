@@ -1,9 +1,10 @@
-n1 = 3
-n2 = 4
-n3 = 5
-if (n1 > n2) and (n1 > n3):
-   print("3")
-elif (n2 > n1) and (n2 > n3):
-   print("4")
+num1 = 3
+num2 = 4
+num3 = 5
+if (num1 > num2) and (num1 > num3):
+   largest = num1
+elif (num2 > num1) and (num2 > num3):
+   largest = num2
 else:
-   print("5")
+   largest = num3
+print(largest)

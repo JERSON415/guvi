@@ -1,4 +1,4 @@
-num=int(input())
-expo=int(input())
-value=num**expo
-print(value)
+c=int(input())
+a=int(input())
+deepak=c**a
+print(deepak)
